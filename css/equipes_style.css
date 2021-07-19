@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+  }
+  .content {
+    font-family: Verdana, sans-serif;
+    padding: 0;
+    display:block;
+    margin:auto;
+    margin-top:50px;
+    margin-bottom:50px;
+    width:85%;
+    height: 80%;
+    letter-spacing:1px;
+    font-weight:bold;
+    min-height:100%;
+    height:auto;
+    background-color: #e6e6e6;
+    font-size: 22px;
+    color:#333;
+    line-height: 30px;
+    text-align: center;
+    padding:50px;
+
+  }
+  .legende{
+      display: block;
+      float: right;
+      font-size: 16px;
+      margin-top: 2em;
+      margin-right:2em;
+  }
+  .legende table tr th{
+      font-size:18px;
+      text-align: center;
+      background-color: #c60000;
+  }
+  .legende table tr td{
+      text-align: left;
+  }
+  #tdd{
+      width: 60px;
+  }
+
+  .classement {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .classement td, .classement th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .classement tr:nth-child(even) {background-color: #f2f2f2;}
+
+  .classement tr:hover {background-color: #ddd;}
+
+  .classement th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: lightcoral;
+    color: white;
+  }
+
+  .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+  }
+
+  .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+  }
+
+  .tab button:hover {
+      background-color: #ddd;
+  }
+
+  .tab button.active {
+      background-color: #ccc;
+  }
+
+  .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+  }
+
+  #contenu {
+      display: flex;
+      flex-wrap: wrap;
+      min-height: 100%;
+  }
+
+@media (max-width: 768px) {
+  .content{
+      font-size:16px;
+  }
+}

@@ -1,0 +1,90 @@
+.content {
+  font-family: Verdana, sans-serif;
+  padding: 0;
+  display:flex;
+  flex-wrap: wrap;
+  margin:auto;
+  margin-top:50px;
+  margin-bottom:50px;
+  width:85%;
+  height: 80%;
+  letter-spacing:1px;
+  font-weight:bold;
+  min-height:100%;
+  height: auto;
+  background-color: #e6e6e6;
+  font-size: 22px;
+  color:#333;
+  line-height: 30px;
+  text-align: center;
+  padding:50px;
+  padding-top:150px;
+  border-radius: 10px;
+}
+
+.listtab{
+    font-size: 16px;
+    border: 1px solid black;
+}
+.listtab thead{
+    color: red;
+}
+.listtab, th, td{
+    padding: 5px;
+}
+
+.listtab2{
+    width:500px;
+    border: 1px solid black;
+}
+.listtab2 thead{
+    color: red;
+}
+
+#ddate {
+  min-width:260px;
+}
+
+.saisie {
+  padding :40px;
+  padding-top: 20px;
+  margin:auto;
+}
+
+.saisie{
+  text-align: left;
+  background-color: #292b2c;
+  border-radius: 10px;
+  color:white;
+}
+
+.saisie label{
+  width:250px;
+}
+
+.saisie h1, .saisie h2 {
+  font-weight:bolder;
+  padding-top:20px;
+}
+
+.saisie h2 {
+  padding-top:80px;
+}
+
+.tab{
+  margin:auto;
+}
+
+.tab th {
+  background-color: #292b2c;
+}
+
+.radio {margin: 20px 20px;}
+
+.tab{overflow-x:auto;}
+
+@media only screen and (max-width: 1000px) {
+  .tab {
+    margin-bottom:30px;
+  }
+}

@@ -1,0 +1,140 @@
+.titre{
+	color: black;
+	position: absolute;
+	margin-left: 47px;
+	font-size: 32px;
+	font-weight: bolder;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+/*---Carousel --*/
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+  }
+  
+  .carousel-item img {
+    height:auto;
+    max-height:450px;
+    max-width:80%;
+    margin: auto; 
+    margin-top:100px;
+    display: block;
+  }
+  
+  .carousel-indicators {
+      bottom: -50px;
+  }
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+  .img-jpg{
+      border-radius: 8px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .img-png{
+      -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+      filter: url(#drop-shadow);
+      -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+      filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+  }
+
+
+.content {
+	padding: 20px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+	margin:auto;
+	width:85%;
+	letter-spacing:1px;
+	font-weight:bold;
+	font-size: 22px;
+	color:#333;
+	padding:100px;
+	border-radius:10px;
+}
+
+.eng {
+	font-style: italic;
+}
+
+#TopTeams{
+	display:block;
+	width:30%;
+	min-width:420px;
+	height:10%;	
+	background-color: black;
+	border:solid;
+	border-color:white;
+	color :#c60000;
+	padding:10px;
+	margin:0 auto; 
+	font-variant:small-caps;
+	border-radius: 5px;
+}
+#TopTeams p{
+	color:white;
+	padding:0;
+	margin:0;
+	letter-spacing:2px;
+}
+
+
+#TopScorers{
+	display:block;
+	width:30%;
+	min-width:420px;
+	height:10%;	
+	background-color: black;
+	border:solid;
+	border-color:white;
+	color :#c60000;
+	padding:10px;
+	margin:0 auto;
+	font-variant:small-caps;
+	border-radius: 5px;
+}
+#TopScorers p{
+	color:white;
+	padding:0;
+	margin:0;
+	letter-spacing:2px;
+}
+
+.content2 {
+	padding: 20px;
+	min-height: auto;
+	display:block;
+	margin:auto ;
+	width:85%;
+	letter-spacing:1px;
+	font-weight:bold;
+	font-size: 22px;
+	color:#333;
+	line-height: 30px;
+	padding:100px;
+	border-radius:10px;
+	background-color: #e6e6e6;
+}	
+
+.content2 h1{
+	width:100%;
+	color:white;
+	background-color:black;
+	margin: auto 0;
+	text-align:center;
+	padding:10px 0;
+	border-radius:10px;
+	margin-top:-50px;
+	font-variant:small-caps;
+	
+}
+.content2 p{
+	margin:0;
+}

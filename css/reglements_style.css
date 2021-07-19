@@ -1,0 +1,20 @@
+.content{
+	display:block;
+	margin:auto;
+	width:85%;
+	letter-spacing:1px;
+	font-weight:bold;
+	height:auto;
+	background-color: #e6e6e6;
+	font-size: 22px;
+	color:#333;
+	line-height: 30px;
+    padding:100px;
+	border-radius:10px;
+	margin-top:50px;
+	margin-bottom:50px;
+	min-height:100%;
+}
+
+h1,h2,h3,h4{color:#c60000}
+h1{font-weight:bolder;}
